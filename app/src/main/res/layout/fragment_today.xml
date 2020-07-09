@@ -16,14 +16,17 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="2dp">
+            android:layout_marginBottom="5dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
                 android:layout_marginBottom="2dp"
-                android:textSize="18sp"
-                android:text="@string/today_total" />
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingBottom="5dp"
+                android:text="@string/today_total"
+                android:textSize="18sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -46,6 +49,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:paddingStart="10dp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="start|center_vertical"
                 android:textSize="44sp"
                 android:singleLine="true"/>
@@ -54,6 +59,8 @@
                 android:id="@+id/total_expense_currency_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/colorPrimary"
                 android:layout_toEndOf="@id/total_expense_sum_text_view"
                 android:layout_toRightOf="@id/total_expense_sum_text_view"
                 android:gravity="end|center_vertical"
@@ -72,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="2dp">
@@ -80,7 +87,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="2dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_semibold"
                 android:textSize="18sp"
                 android:text="@string/today_expenses" />
 
@@ -134,6 +143,7 @@
                 android:layout_width="250dp"
                 android:layout_height="60dp"
                 android:textSize="20dp"
+                android:fontFamily="@font/poppins_semibold"
                 android:textAlignment="center"
                 android:textColor="@color/WhitePrimary"
                 android:background="@drawable/custom_button"

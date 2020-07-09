@@ -21,7 +21,7 @@
         </activity>
 
         <activity android:name=".activity.SettingsActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:parentActivityName=".activity.MainActivity">
             <!-- Parent activity meta-data to support Android 4.0 and lower -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
@@ -29,7 +29,7 @@
         </activity>
 
         <activity android:name=".activity.CategoryEditActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateVisible"
             android:parentActivityName=".activity.MainActivity">
             <!-- Parent activity meta-data to support Android 4.0 and lower -->
@@ -38,7 +38,7 @@
         </activity>
 
         <activity android:name=".activity.ExpenseEditActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateVisible"
             android:parentActivityName=".activity.MainActivity">
             <!-- Parent activity meta-data to support Android 4.0 and lower -->
@@ -49,6 +49,9 @@
         <provider
             android:authorities="com.expensetracer.provider"
             android:name=".providers.ExpensesProvider" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 
